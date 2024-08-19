@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Weather from './Weather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   
+    <Weather />
+    <a href='https://github.com/ambervdsteen?tab=repositories' target='_blank' rel='noopener noreferrer' >this page was coded by Amber van der Steen</a>
   </React.StrictMode>
 );
 
